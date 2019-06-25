@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1 class="header--h1">
+			The Graet 
+			<br>
+			<span id="colorDisplay">RBG</span> 
+			<br>
+			Guessing Game	
+		</h1>
+	</div>
+	<div class="nav">
+		<button class="nav__btn btn--reset">New Colors</button>
+		<span class="nav__span"></span>
+		<button class="nav__btn btn--mode" onclick="startGame(3)">Easy</button>
+		<button class="nav__btn btn--mode" onclick="startGame(6)">Hard</button>
+	</div>
+	<div id="board" class="board"></div>
+	<script type="text/javascript" src="Game.js"></script>
+</body>
+</html>
+
